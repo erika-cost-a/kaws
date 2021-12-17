@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+
+}
+
+section{
+    background-color: black;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section h1{
+    color: #fff;
+    font-family: poppins;
+    font-size: 15em;
+}
+
+button{
+    position: absolute;
+
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+
+    width: 25px;
+    height: 25px;
+
+    cursor: pointer;
+}
+
+.bg{
+    background-image:url('/assets/chad-madden-cPa-7yByq3o-unsplash.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.font{
+    background-image:url('/assets/chad-madden-cPa-7yByq3o-unsplash.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+
+}
+
+.black{
+    background-image: none;
+}
